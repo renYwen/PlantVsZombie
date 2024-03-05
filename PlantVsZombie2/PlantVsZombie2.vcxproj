@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{f3e30ad5-2de6-4b2f-add4-5060fb1fcca8}</ProjectGuid>
+    <RootNamespace>PlantVsZombie2</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <Profile>true</Profile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <Profile>true</Profile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Animation.cpp" />
+    <ClCompile Include="ArmorZombie.cpp" />
+    <ClCompile Include="Audio.cpp" />
+    <ClCompile Include="BaseBullet.cpp" />
+    <ClCompile Include="BasePlant.cpp" />
+    <ClCompile Include="BaseZombie.cpp" />
+    <ClCompile Include="BattleController.cpp" />
+    <ClCompile Include="BossZombie.cpp" />
+    <ClCompile Include="BoxCollider.cpp" />
+    <ClCompile Include="BucketZombie.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="Car.cpp" />
+    <ClCompile Include="CherryBomb.cpp" />
+    <ClCompile Include="Chomper.cpp" />
+    <ClCompile Include="Controller.cpp" />
+    <ClCompile Include="CoreMinimal.cpp" />
+    <ClCompile Include="DoubleShooter.cpp" />
+    <ClCompile Include="game.cpp" />
+    <ClCompile Include="GameStatics.cpp" />
+    <ClCompile Include="HatZombie.cpp" />
+    <ClCompile Include="IcePea.cpp" />
+    <ClCompile Include="IceShooter.cpp" />
+    <ClCompile Include="JumpZombie.cpp" />
+    <ClCompile Include="MenuController.cpp" />
+    <ClCompile Include="MenuUI.cpp" />
+    <ClCompile Include="Mine.cpp" />
+    <ClCompile Include="NormalZombie.cpp" />
+    <ClCompile Include="Pea.cpp" />
+    <ClCompile Include="PeaShooter.cpp" />
+    <ClCompile Include="Renderer.cpp" />
+    <ClCompile Include="Resources.cpp" />
+    <ClCompile Include="Sun.cpp" />
+    <ClCompile Include="SunFlower.cpp" />
+    <ClCompile Include="BattleUI.cpp" />
+    <ClCompile Include="UserInterface.cpp" />
+    <ClCompile Include="WallNut.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Animation.h" />
+    <ClInclude Include="ArmorZombie.h" />
+    <ClInclude Include="Audio.h" />
+    <ClInclude Include="BaseBullet.h" />
+    <ClInclude Include="BattleController.h" />
+    <ClInclude Include="Bomb.h" />
+    <ClInclude Include="Boom.h" />
+    <ClInclude Include="BossZombie.h" />
+    <ClInclude Include="BoxCollider.h" />
+    <ClInclude Include="BucketZombie.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="Car.h" />
+    <ClInclude Include="CherryBomb.h" />
+    <ClInclude Include="Chomper.h" />
+    <ClInclude Include="Controller.h" />
+    <ClInclude Include="DoubleShooter.h" />
+    <ClInclude Include="GameStatics.h" />
+    <ClInclude Include="Grow.h" />
+    <ClInclude Include="HatStand.h" />
+    <ClInclude Include="HatZombie.h" />
+    <ClInclude Include="Head.h" />
+    <ClInclude Include="IcePea.h" />
+    <ClInclude Include="IcePieces.h" />
+    <ClInclude Include="IceShooter.h" />
+    <ClInclude Include="JumpZombie.h" />
+    <ClInclude Include="MenuController.h" />
+    <ClInclude Include="MenuUI.h" />
+    <ClInclude Include="Mine.h" />
+    <ClInclude Include="NormalStand.h" />
+    <ClInclude Include="NormalZombie.h" />
+    <ClInclude Include="Overall.h" />
+    <ClInclude Include="Pea.h" />
+    <ClInclude Include="PeaPieces.h" />
+    <ClInclude Include="PeaShooter.h" />
+    <ClInclude Include="BasePlant.h" />
+    <ClInclude Include="BaseZombie.h" />
+    <ClInclude Include="CoreMinimal.h" />
+    <ClInclude Include="Renderer.h" />
+    <ClInclude Include="Resources.h" />
+    <ClInclude Include="RigidBody.h" />
+    <ClInclude Include="Split.h" />
+    <ClInclude Include="Split_.h" />
+    <ClInclude Include="Sun.h" />
+    <ClInclude Include="SunFlower.h" />
+    <ClInclude Include="Timer.h" />
+    <ClInclude Include="BattleUI.h" />
+    <ClInclude Include="UserInterface.h" />
+    <ClInclude Include="WallNut.h" />
+    <ClInclude Include="ZombieHand.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

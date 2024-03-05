@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{aebfae62-0cf5-48a1-8f08-684a5f2d9ac8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Components">
+      <UniqueIdentifier>{8695254c-097d-4a4e-8247-fd52816496a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project">
+      <UniqueIdentifier>{0b1b240e-0fa9-4e51-8364-6f2d31c8ed93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project\头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Project\源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Project\源文件\Base">
+      <UniqueIdentifier>{d80afdab-0d8f-4450-ab7f-fb10dcfbd9f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project\源文件\Plant">
+      <UniqueIdentifier>{40f3dec9-5c1d-42f5-bbe1-1f275b9295ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project\头文件\Base">
+      <UniqueIdentifier>{d11067e0-846f-4e54-af89-0f74e024c89b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project\头文件\Plant">
+      <UniqueIdentifier>{5a374b54-a9e0-4e55-8017-29afb8a6df69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Objects">
+      <UniqueIdentifier>{77aa243a-2ff2-4236-a564-71bb63ae2bfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project\头文件\UI">
+      <UniqueIdentifier>{9477f1a8-c39e-473a-b6ff-be9687cbcc7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project\源文件\UI">
+      <UniqueIdentifier>{bb9af31d-4b50-44af-a75d-7ed051128b5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project\头文件\Zombie">
+      <UniqueIdentifier>{d034311a-c674-40d2-b90c-b6e19ead65f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project\源文件\Zombie">
+      <UniqueIdentifier>{0c1312b4-6763-49b9-ad09-f3e696dbf83a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project\头文件\Bullet">
+      <UniqueIdentifier>{eae61132-9242-46dc-9024-93275bbd34d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project\源文件\Bullet">
+      <UniqueIdentifier>{a8b62380-5a54-450c-a99a-2152e732ea5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project\头文件\Effect">
+      <UniqueIdentifier>{4c5d0ae2-289d-4461-a36a-45470a369457}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project\源文件\Effect">
+      <UniqueIdentifier>{d16df6ca-f345-4826-a957-4323e73460ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project\头文件\Controller">
+      <UniqueIdentifier>{4c0004d0-e9be-4908-b52b-62c5f3023a21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project\源文件\Controller">
+      <UniqueIdentifier>{9eb425e8-cc7f-47e1-9ab0-e41f34754647}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BasePlant.cpp">
+      <Filter>Project\源文件\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="PeaShooter.cpp">
+      <Filter>Project\源文件\Plant</Filter>
+    </ClCompile>
+    <ClCompile Include="SunFlower.cpp">
+      <Filter>Project\源文件\Plant</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseBullet.cpp">
+      <Filter>Project\源文件\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Pea.cpp">
+      <Filter>Project\源文件\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Sun.cpp">
+      <Filter>Project\源文件\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Engine\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Engine\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreMinimal.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStatics.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxCollider.cpp">
+      <Filter>Engine\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>Engine\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface.cpp">
+      <Filter>Engine\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleUI.cpp">
+      <Filter>Project\源文件\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Engine\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio.cpp">
+      <Filter>Engine\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseZombie.cpp">
+      <Filter>Project\源文件\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalZombie.cpp">
+      <Filter>Project\源文件\Zombie</Filter>
+    </ClCompile>
+    <ClCompile Include="BucketZombie.cpp">
+      <Filter>Project\源文件\Zombie</Filter>
+    </ClCompile>
+    <ClCompile Include="DoubleShooter.cpp">
+      <Filter>Project\源文件\Plant</Filter>
+    </ClCompile>
+    <ClCompile Include="WallNut.cpp">
+      <Filter>Project\源文件\Plant</Filter>
+    </ClCompile>
+    <ClCompile Include="CherryBomb.cpp">
+      <Filter>Project\源文件\Plant</Filter>
+    </ClCompile>
+    <ClCompile Include="Car.cpp">
+      <Filter>Project\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Mine.cpp">
+      <Filter>Project\源文件\Plant</Filter>
+    </ClCompile>
+    <ClCompile Include="Resources.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="IceShooter.cpp">
+      <Filter>Project\源文件\Plant</Filter>
+    </ClCompile>
+    <ClCompile Include="IcePea.cpp">
+      <Filter>Project\源文件\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Chomper.cpp">
+      <Filter>Project\源文件\Plant</Filter>
+    </ClCompile>
+    <ClCompile Include="JumpZombie.cpp">
+      <Filter>Project\源文件\Zombie</Filter>
+    </ClCompile>
+    <ClCompile Include="HatZombie.cpp">
+      <Filter>Project\源文件\Zombie</Filter>
+    </ClCompile>
+    <ClCompile Include="ArmorZombie.cpp">
+      <Filter>Project\源文件\Zombie</Filter>
+    </ClCompile>
+    <ClCompile Include="BossZombie.cpp">
+      <Filter>Project\源文件\Zombie</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleController.cpp">
+      <Filter>Project\源文件\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuController.cpp">
+      <Filter>Project\源文件\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuUI.cpp">
+      <Filter>Project\源文件\UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BasePlant.h">
+      <Filter>Project\头文件\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseZombie.h">
+      <Filter>Project\头文件\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="PeaShooter.h">
+      <Filter>Project\头文件\Plant</Filter>
+    </ClInclude>
+    <ClInclude Include="SunFlower.h">
+      <Filter>Project\头文件\Plant</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseBullet.h">
+      <Filter>Project\头文件\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Engine\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Engine\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio.h">
+      <Filter>Engine\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Pea.h">
+      <Filter>Project\头文件\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Sun.h">
+      <Filter>Project\头文件\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxCollider.h">
+      <Filter>Engine\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="RigidBody.h">
+      <Filter>Engine\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreMinimal.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStatics.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Overall.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>Engine\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface.h">
+      <Filter>Engine\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleUI.h">
+      <Filter>Project\头文件\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Engine\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Engine\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalZombie.h">
+      <Filter>Project\头文件\Zombie</Filter>
+    </ClInclude>
+    <ClInclude Include="BucketZombie.h">
+      <Filter>Project\头文件\Zombie</Filter>
+    </ClInclude>
+    <ClInclude Include="DoubleShooter.h">
+      <Filter>Project\头文件\Plant</Filter>
+    </ClInclude>
+    <ClInclude Include="WallNut.h">
+      <Filter>Project\头文件\Plant</Filter>
+    </ClInclude>
+    <ClInclude Include="CherryBomb.h">
+      <Filter>Project\头文件\Plant</Filter>
+    </ClInclude>
+    <ClInclude Include="Car.h">
+      <Filter>Project\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Mine.h">
+      <Filter>Project\头文件\Plant</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="IceShooter.h">
+      <Filter>Project\头文件\Plant</Filter>
+    </ClInclude>
+    <ClInclude Include="IcePea.h">
+      <Filter>Project\头文件\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Chomper.h">
+      <Filter>Project\头文件\Plant</Filter>
+    </ClInclude>
+    <ClInclude Include="JumpZombie.h">
+      <Filter>Project\头文件\Zombie</Filter>
+    </ClInclude>
+    <ClInclude Include="HatZombie.h">
+      <Filter>Project\头文件\Zombie</Filter>
+    </ClInclude>
+    <ClInclude Include="Grow.h">
+      <Filter>Project\头文件\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Boom.h">
+      <Filter>Project\头文件\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Bomb.h">
+      <Filter>Project\头文件\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Head.h">
+      <Filter>Project\头文件\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="ArmorZombie.h">
+      <Filter>Project\头文件\Zombie</Filter>
+    </ClInclude>
+    <ClInclude Include="BossZombie.h">
+      <Filter>Project\头文件\Zombie</Filter>
+    </ClInclude>
+    <ClInclude Include="PeaPieces.h">
+      <Filter>Project\头文件\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="IcePieces.h">
+      <Filter>Project\头文件\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Split.h">
+      <Filter>Project\头文件\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Split_.h">
+      <Filter>Project\头文件\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalStand.h">
+      <Filter>Project\头文件\Zombie</Filter>
+    </ClInclude>
+    <ClInclude Include="HatStand.h">
+      <Filter>Project\头文件\Zombie</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleController.h">
+      <Filter>Project\头文件\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuController.h">
+      <Filter>Project\头文件\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuUI.h">
+      <Filter>Project\头文件\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ZombieHand.h">
+      <Filter>Project\头文件\Effect</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
